@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon-180x180.png">
+    <link rel="android-touch-icon" sizes="192x192" href="../Main/img/favicon/android-icon-192x192.png">
+    <link rel="icon"  sizes="32x32" href="./img/favicon/favicon.ico">
+    <link rel="icon"  sizes="16x16" href="../img/favicon/favicon-16x16.ico">
+    <title data-i18n="title"></title>
+</head>
+<body data-page="faq">
+    <header class="header">
+        <div class="header_container">
+            <div class="header_body">
+                <a href="index.html" class="header_logo">
+                    <img src="img/Mini_Logo.png" alt="AppTree" class="header_logo-mini">
+                </a>
+                <div class="header_burger">
+                    <span></span>
+                </div>
+                <div class="header_menu">
+                    <nav class="header_list">
+                        <a href="index.html" class="header_link" data-i18n="header_link-home"></a>
+                        <a href="delivery.html" class="header_link" data-i18n="header_link-delivery"></a>
+                        <a href="about_us.html" class="header_link" data-i18n="header_link-abuot"></a>
+                        <a href="contacts.html" class="header_link" data-i18n="header_link-contacts"></a>
+                        <a href="faq.html"  class="header_link" data-i18n="header_link-faq"></a>
+                        <div class="language-switcher">
+                            <label class="switch">
+                                <input type="checkbox" id="language-toggle">
+                                <span class="slider">
+                                    <span class="current-lang">RU</span>
+                                </span>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <a class="header_social" href="https://www.instagram.com/apptree.store/" target="blank">
+                    <svg width="50" height="50" viewBox="0 0 3364.7 3364.7" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <radialGradient id="0" cx="217.76" cy="3290.99" r="4271.92" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#fa8f21"/><stop offset=".78" stop-color="#d82d7e"/></radialGradient><radialGradient id="1" cx="2330.61" cy="3182.95" r="3759.33" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"/><stop offset="1" stop-color="#8c3aaa"/></radialGradient>
+                        </defs>
+                            <path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#0)"/>
+                            <path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#1)"/>
+                            <path d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57" fill="#fff"/> 
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main_content">
+        <div class="container">
+            <div class="wrapper_faq">
+                <div class="faq_header">
+                    <h1 data-i18n="faq_header"></h1>
+                </div>
+                <div class="faq_content_container">
+                    <div class="tab">
+                        <div class="tab_button_element">
+                            <button class="tablinks" onclick="openTheme(event, 'Delivery')" id="defaultOpen" data-i18n="delivery_payment">Доставка и оплата</button>
+                        </div>
+                        <div class="tab_button_element">
+                            <button class="tablinks" onclick="openTheme(event, 'Service')" data-i18n="warranty_service">Гарантия и сервис</button>
+                        </div>
+                        <div class="tab_button_element">
+                            <button class="tablinks" onclick="openTheme(event, 'Return')" data-i18n="return_exchange">Возврат и обмен</button>
+                        </div>
+                        <div class="tab_button_element">
+                            <button class="tablinks" onclick="openTheme(event, 'Equipment')" data-i18n="equipment">Комплектация</button>
+                        </div>
+                    </div>
+                    <div id="Delivery" class="faq_content_wrapper tabcontent">
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="dress_delivery"></h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="address_delivery_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="payment_methods"></h3>
+                                    <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                    </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <ul>
+                                    <li data-i18n="payment_methods_answer1"></li>
+                                    <li data-i18n="payment_methods_answer2"></li>
+                                    <li data-i18n="payment_methods_answer3"> <a class="post_office" href="https://novapost.com/uk-ua/" target="blank"></a> <a class="post_office" href="https://www.ukrposhta.ua" target="blank"></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="cash_on_delivery"></h3>
+                                    <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                    </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="cash_on_delivery_answer"> <a class="post_office" href="https://novapost.com/uk-ua/" target="blank"></a>  <a class="post_office" href="https://www.ukrposhta.ua" target="blank"></a></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="purchase_reception"></h3>
+                                    <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                    </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <ul>
+                                    <li data-i18n="purchase_reception_answer1"></li>
+                                    <li data-i18n="purchase_reception_answer2"> <a class="post_office" href="https://novapost.com/uk-ua/" target="blank"></a> <a class="post_office" href="https://www.ukrposhta.ua" target="blank"></a></li>
+                                    <li data-i18n="purchase_reception_answer3"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="in_person_purchase"></h3>
+                                    <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                    </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="in_person_purchase_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="working_hours"></h3>
+                                    <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                    </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="working_hours_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="item_availability"></h3>
+                                    <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                    </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="item_availability_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3  data-i18n="order_number"></h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="order_number_answer"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Service" class="faq_content_wrapper tabcontent">
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="warranty_period_question"></h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                        </g>
+                                        <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="warranty_period_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="service_after_warranty_question"></h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="service_after_warranty_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="repair_other_store_question"></h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="repair_other_store_answer"></p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="repair_timing_question">Какие сроки сервисного ремонта?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="repair_timing_answer">Диагностика занимает до 2 рабочих дней, ремонт и обслуживание осуществляется в течение 14 рабочих дней*.</p>
+                                <br>
+                                <p data-i18n="repair_timing_answer_warning">* - в случае изменения условий ремонта, вы будете уведомлены об этом отдельно.</p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="service_center_hours_question">По какому графику работает сервисный центр?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="service_center_hours_answer">Наши специалисты работают с 9:00 до 20:00 по будням, а так же с 10:00 до 18:00 по выходным.</p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="service_centers_locations_question">Где располагаются ваши сервисные центры?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="service_centers_locations_answer">Вы можете принести свой гаджет на ремонт в любой из наших магазинов.</p>
+                            </div>
+                        </div>
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="no_warranty_products_question">У вас есть товары без гарантии?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="no_warranty_products_answer">Все наши товары имеют гарантийный срок обслуживания 14 дней.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Return" class="faq_content_wrapper tabcontent">
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="return_exchange_question">Можно ли вернуть или обменять товар?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="return_exchange_answer">Обмен или возврат товара надлежащего качества осуществляется:*</p>
+                                <ul>
+                                    <li data-i18n="return_condition_unopened">Eсли товар не использовался.</li>
+                                    <li data-i18n="return_condition_appearance">Если сохранен товарный вид устройства, и его потребительские свойства.</li>
+                                </ul>
+                                <br>
+                                <p data-i18n="return_exclusions">* - В услуге возврата или обмена может быть отказано по следующим причинам:</p>
+                                <ul>
+                                    <li data-i18n="return_exclusion_late">Нарушение срока возврата товара – дольше 14 дней</li>
+                                    <li data-i18n="return_exclusion_fraud">Необоснованный возврат, подозрение покупателя в мошенничестве.</li>
+                                    <li data-i18n="return_exclusion_defects">Дефекты товара, возникшие по вине покупателя.</li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                    <div id="Equipment" class="faq_content_wrapper tabcontent">
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="used_equipment_included">Что входит в комплект Б/У?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="used_equipment_included_description"><b>В комплект Б/У техники входит:</b></p>
+                                <ul>
+                                    <li data-i18n="used_equipment_iphone">iPhone (телефон + кабель зарядки + блок питания)</li>
+                                    <li data-i18n="used_equipment_ipad">iPad (планшет + зарядное устройство)</li>
+                                    <li data-i18n="used_equipment_watch">Apple Watch (часы + зарядное устройство)</li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <div class="faq_content_item">
+                            <div class="faq_title acordeon_title">
+                                <h3 data-i18n="accessories_purchase">Могу ли я купить только аксессуары?</h3>
+                                <svg class="contacts_title_svg" width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g>
+                                    </g>
+                                    <path d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div class="faq_item_description acordeon_item">
+                                <p data-i18n="accessories_purchase_description"><b>Да, конечно, у нас Вы можете приобрести недостастающие аксессуары:</b></p>
+                                <ul>
+                                    <li data-i18n="accessory_screen_protector">Защитное стекло</li>
+                                    <li data-i18n="accessory_cable">Кабель lightning</li>
+                                    <li  data-i18n="accessory_earpods">Наушники Ear Pods</li>
+                                    <li data-i18n="accessory_cases">Чехлы</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button_back-to-top">
+                <a id="backToTopLink" href="#">
+                    <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.35288 8.95043C4.00437 6.17301 6.17301 4.00437 8.95043 3.35288C10.9563 2.88237 13.0437 2.88237 15.0496 3.35288C17.827 4.00437 19.9956 6.17301 20.6471 8.95044C21.1176 10.9563 21.1176 13.0437 20.6471 15.0496C19.9956 17.827 17.827 19.9956 15.0496 20.6471C13.0437 21.1176 10.9563 21.1176 8.95044 20.6471C6.17301 19.9956 4.00437 17.827 3.35288 15.0496C2.88237 13.0437 2.88237 10.9563 3.35288 8.95043Z" stroke="#fff" stroke-width="1.5"/>
+                        <path d="M9.5 13L12 10.5L14.5 13" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+             </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <h2 class="footer_header">
+                    <a href="index.html">AppTree</a>
+                </h2>
+                <p data-i18n="contact-us" class="footer_message"></p>
+                <div class="social_icons">
+                    <a href="https://www.instagram.com/apptree.store/" class="social_button" target="blank">
+                        <svg width="50px" height="50px" viewBox="0 0 3364.7 3364.7" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient  cx="217.76" cy="3290.99" r="4271.92" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#fa8f21"/><stop offset=".78" stop-color="#d82d7e"/></radialGradient><radialGradient  cx="2330.61" cy="3182.95" r="3759.33" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"/><stop offset="1" stop-color="#8c3aaa"/></radialGradient>
+                                </defs>
+                                <path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#0)"/>
+                                <path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#1)"/>
+                                <path d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57" fill="#fff"/> 
+                        </svg>
+                    </a>
+                    <a href="https://t.me/official_apptree" class="social_button" target="blank">
+                        <svg width="50px" height="50px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                            <g>
+                                <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"></path>
+                                <path d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308" fill="#FFFFFF"></path>
+                                <path d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475" fill="#D2E5F1"></path>
+                                <path d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624" fill="#B5CFE4"></path>
+                            </g>
+                    </svg>
+                    </a>
+                    <a href="mailto:official.apptree@gmail.com" class="social_button">
+                        <svg width="50px" height="50px" viewBox="0 -31.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                            <g>
+                                <path d="M58.1818182,192.049515 L58.1818182,93.1404244 L27.5066233,65.0770089 L0,49.5040608 L0,174.59497 C0,184.253152 7.82545455,192.049515 17.4545455,192.049515 L58.1818182,192.049515 Z" fill="#4285F4"></path>
+                                <path d="M197.818182,192.049515 L238.545455,192.049515 C248.203636,192.049515 256,184.224061 256,174.59497 L256,49.5040608 L224.844415,67.3422767 L197.818182,93.1404244 L197.818182,192.049515 Z" fill="#34A853"></path>
+                                <polygon fill="#EA4335" points="58.1818182 93.1404244 54.0077618 54.4932827 58.1818182 17.5040608 128 69.8676972 197.818182 17.5040608 202.487488 52.4960089 197.818182 93.1404244 128 145.504061"></polygon>
+                                <path d="M197.818182,17.5040608 L197.818182,93.1404244 L256,49.5040608 L256,26.2313335 C256,4.64587897 231.36,-7.65957557 214.109091,5.28587897 L197.818182,17.5040608 Z" fill="#FBBC04"></path>
+                                <path d="M0,49.5040608 L26.7588051,69.5731646 L58.1818182,93.1404244 L58.1818182,17.5040608 L41.8909091,5.28587897 C24.6109091,-7.65957557 0,4.64587897 0,26.2313335 L0,49.5040608 Z" fill="#C5221F"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a  href="tel:+380681952294" class="social_button">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    viewBox="0 0 64 64" width="40px" height="40px" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:#77B3D4;}
+                            .st1{opacity:0.2;}
+                            .st2{fill:#231F20;}
+                            .st3{fill:#FFFFFF;}
+                        </style>
+                        <g id="Layer_1">
+                            <g>
+                                <circle class="st0" cx="32" cy="32" r="32"/>
+                            </g>
+                            <g class="st1">
+                                <g>
+                                    <path class="st2" d="M29,25.3c-0.4-4.8-5.4-7.1-5.6-7.2C23.1,18,22.9,18,22.7,18c-5.8,1-6.6,4.3-6.7,4.5c0,0.2,0,0.4,0,0.6
+                                        c6.9,21.4,21.2,25.3,25.9,26.6c0.4,0.1,0.7,0.2,0.9,0.3c0.1,0,0.2,0.1,0.3,0.1c0.2,0,0.3,0,0.5-0.1c0.1-0.1,3.5-1.7,4.4-6.9
+                                        c0-0.2,0-0.5-0.1-0.7c-0.1-0.1-1.9-3.5-6.8-4.7c-0.3-0.1-0.7,0-1,0.2c-1.6,1.3-3.7,2.7-4.6,2.9c-6.2-3-9.7-8.9-9.8-10
+                                        c-0.1-0.6,1.3-2.8,3-4.6C28.9,26,29,25.6,29,25.3z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path class="st3" d="M29,23.3c-0.4-4.8-5.4-7.1-5.6-7.2C23.1,16,22.9,16,22.7,16c-5.8,1-6.6,4.3-6.7,4.5c0,0.2,0,0.4,0,0.6
+                                        c6.9,21.4,21.2,25.3,25.9,26.6c0.4,0.1,0.7,0.2,0.9,0.3c0.1,0,0.2,0.1,0.3,0.1c0.2,0,0.3,0,0.5-0.1c0.1-0.1,3.5-1.7,4.4-6.9
+                                        c0-0.2,0-0.5-0.1-0.7c-0.1-0.1-1.9-3.5-6.8-4.7c-0.3-0.1-0.7,0-1,0.2c-1.6,1.3-3.7,2.7-4.6,2.9c-6.2-3-9.7-8.9-9.8-10
+                                        c-0.1-0.6,1.3-2.8,3-4.6C28.9,24,29,23.6,29,23.3z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Layer_2">
+                        </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer_nav">
+                    <div class="footer_nav-items">
+                        <a class="footer_nav-link" href="index.html">
+                            <span  data-i18n="footer_link-home" class="footer_nav-text"></span>
+                            <svg class="footer_svg" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 26.39 26.39" style="enable-background:new 0 0 26.39 26.39;" xml:space="preserve">
+                                <g id="c14_house">
+                                <path d="M3.588,24.297c0,0-0.024,0.59,0.553,0.59c0.718,0,6.652-0.008,6.652-0.008l0.01-5.451c0,0-0.094-0.898,0.777-0.898h2.761c1.031,0,0.968,0.898,0.968,0.898l-0.012,5.434c0,0,5.628,0,6.512,0c0.732,0,0.699-0.734,0.699-0.734V14.076L13.33,5.913l-9.742,8.164C3.588,14.077,3.588,24.297,3.588,24.297z"/>
+                                <path d="M0,13.317c0,0,0.826,1.524,2.631,0l10.781-9.121l10.107,9.064c2.088,1.506,2.871,0,2.871,0L13.412,1.504L0,13.317z"/>
+                                <polygon points="23.273,4.175 20.674,4.175 20.685,7.328 23.273,9.525 "/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer_nav-link" href="delivery.html">
+                            <span data-i18n="footer_link-delivery" class="footer_nav-text"></span>
+                            <svg class="footer_svg" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#fff"
+	                            viewBox="0 0 489.9 489.9"  style="enable-background:new 0 0 489.9 489.9;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <circle cx="88.3" cy="361.15" r="43.5"/>
+                                            <circle cx="388.7" cy="361.15" r="43.5"/>
+                                            <path d="M396.9,133.75h-89.8v227h18.3c0-35,28.4-63.4,63.4-63.4s63.4,28.4,63.4,63.4h37.7v-98.7L396.9,133.75z M359.9,293.55
+                                            h-22.5c-5.4,0-9.7-4.3-9.7-9.7c0-5.4,4.3-9.7,9.7-9.7h22.5c5.4,0,9.7,4.3,9.7,9.7C370,289.25,365.4,293.55,359.9,293.55z
+                                            M332,254.25v-95.6h52.5l69.2,95.6H332z"/>
+                                            <path d="M0,361.15h24.9c0-35,28.4-63.4,63.4-63.4s63.4,28.4,63.4,63.4h135.6v-71.5H0V361.15z"/>
+                                            <path d="M0,85.25v56h58.7v-9.1c0-16.4,19.1-25.5,31.8-15.1l58.6,47.6c9.6,7.8,9.6,22.5-0.1,30.3l-58.6,47.3
+                                            c-12.8,10.3-31.8,1.2-31.8-15.2v-9.2H0v52.5h287.2v-185H0V85.25z"/>
+                                            <polygon points="78.6,225.95 136.1,179.65 78.6,133.05 78.6,160.95 0,160.95 0,198.35 78.6,198.35 			"/>
+                                        </g>
+                                    </g>
+                            </g>
+                        </svg>
+                        </a>
+                        <a class="footer_nav-link" href="about_us.html">
+                            <span data-i18n="footer_link-abuot" class="footer_nav-text"></span>
+                            <svg class="footer_svg" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  fill="#fff"
+	                            viewBox="0 0 511.936 511.936" style="enable-background:new 0 0 511.936 511.936;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M383.968,0h-256C80.907,0,42.635,38.272,42.635,85.333v213.333c0,47.061,38.272,85.333,85.333,85.333h64l0.085,92.075
+                                            c0,14.571,8.683,27.584,22.165,33.173c4.331,1.792,8.875,2.688,13.419,2.688c9.536,0,19.136-3.968,27.029-11.968L350.496,384
+                                            h33.472c47.061,0,85.333-38.272,85.333-85.333V85.333C469.301,38.272,431.029,0,383.968,0z M255.968,85.333
+                                            c11.776,0,21.333,9.557,21.333,21.333S267.744,128,255.968,128s-21.333-9.557-21.333-21.333S244.192,85.333,255.968,85.333z
+                                            M298.635,298.667h-85.333c-11.797,0-21.333-9.557-21.333-21.333S201.504,256,213.301,256h21.333v-64
+                                            c-11.797,0-21.333-9.557-21.333-21.333s9.536-21.333,21.333-21.333h21.333c11.797,0,21.333,9.557,21.333,21.333V256h21.333
+                                            c11.797,0,21.333,9.557,21.333,21.333S310.432,298.667,298.635,298.667z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer_nav-link" href="contacts.html">
+                            <span data-i18n="footer_link-contacts"  class="footer_nav-text">Контакты</span>
+                            <svg class="footer_svg" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                        width="442px" height="442px" viewBox="0 0 442 442" style="enable-background:new 0 0 442 442;" xml:space="preserve">
+                                <g>
+	                            <path d="M105.4,221c0,9.391-7.609,17-17,17h-34c-9.391,0-17-7.609-17-17l0,0c0-9.391,7.609-17,17-17h34
+		                        C97.792,204,105.4,211.609,105.4,221L105.4,221z M105.4,112.2c0-9.391-7.609-17-17-17h-34c-9.391,0-17,7.609-17,17l0,0
+		                        c0,9.391,7.609,17,17,17h34C97.792,129.2,105.4,121.591,105.4,112.2L105.4,112.2z M105.4,329.801c0-9.393-7.609-17-17-17h-34
+		                        c-9.391,0-17,7.607-17,17l0,0c0,9.391,7.609,17,17,17h34C97.792,346.801,105.4,339.191,105.4,329.801L105.4,329.801z M404.6,54.4
+		                        v333.2c0,30.043-24.357,54.4-54.398,54.4h-238c-30.042,0-54.4-24.357-54.4-54.4V360.4h30.6c16.871,0,30.6-13.73,30.6-30.6
+		                        c0-16.871-13.729-30.602-30.6-30.602H57.8v-47.6h30.6c16.871,0,30.6-13.729,30.6-30.6s-13.729-30.6-30.6-30.6H57.8v-47.6h30.6
+		                        c16.871,0,30.6-13.729,30.6-30.6c0-16.871-13.729-30.6-30.6-30.6H57.8V54.4c0-30.042,24.358-54.4,54.4-54.4h238
+		                        C380.242,0,404.6,24.357,404.6,54.4z M188.945,161.255c0,28.968,23.487,52.455,52.455,52.455c28.969,0,52.455-23.487,52.455-52.455
+		                        c0-28.968-23.486-52.456-52.455-52.456C212.433,108.8,188.945,132.287,188.945,161.255z M323,289.482
+		                        c0-32.184-26.098-58.283-58.283-58.283H218.09c-32.191,0-58.29,26.1-58.29,58.283v23.318H323V289.482z"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer_nav-link" href="faq.html">
+                            <span data-i18n="footer_link-faq" class="footer_nav-text"></span>
+                            <svg class="footer_svg" fill="#fff" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <path d="M256,0C114.613,0,0,114.617,0,256c0,141.391,114.613,256,256,256s256-114.609,256-256C512,114.617,397.387,0,256,0z
+                                M256,384c-17.674,0-32-14.32-32-32c0-17.672,14.326-32,32-32s32,14.328,32,32C288,369.68,273.674,384,256,384z M280.438,251.172
+                                c-5.047,2.078-8.438,7.75-8.438,14.109V272c0,8.844-7.156,16-16,16c-8.844,0-16-7.156-16-16v-6.719
+                                c0-19.453,11.078-36.609,28.219-43.688c14-5.797,21.922-20.391,19.25-35.516c-2.203-12.594-12.953-23.344-25.531-25.547
+                                c-9.75-1.719-19.141,0.766-26.5,6.953C228.172,173.594,224,182.531,224,192c0,8.844-7.156,16-16,16c-8.844,0-16-7.156-16-16
+                                c0-18.953,8.328-36.828,22.859-49.031c14.516-12.188,33.656-17.266,52.609-13.953c25.813,4.531,47,25.719,51.531,51.531
+                                C324.266,210.547,308.422,239.594,280.438,251.172z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_container-copyright">
+                    <div class="copyright_information copyright_item">
+                        <h6 data-i18n="copyright_date"></h6>
+                    </div>
+                    <div class="copyright_vertical-devider copyright_item">|</div>
+                    <div class="copyright_desigren_info copyright_item">
+                        <h6 data-i18n="copyright_rights"></h6>
+                    </div>
+                    <div class="copyright_vertical-devider copyright_item">|</div>
+                    <div class="copyright_developer_info copyright_item">
+                        <h6>
+                            <a data-i18n="contact_to_us" href="mailto:official.apptree@gmail.com" target="_blank"></a>
+                        </h6>
+                    </div>
+                    <div class="copyright_vertical-devider copyright_item">|</div>
+                    <div class="data_policy copyright_item">
+                        <h6>
+                            <a data-i18n="privacy_policy" href="privacypolicy.html"></a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/LangSwitcher.js" defer></script>
+</body>
+</html>
