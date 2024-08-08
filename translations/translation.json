@@ -1,7 +1,6 @@
 {
     "ru": {
         "index" : {
-            "title": "AppTree Store",
             "header_link-home": "Главная",
             "header_link-delivery": "Доставка и оплата",
             "header_link-abuot": "О нас",
@@ -59,7 +58,6 @@
         },
 
         "delivery": {
-            "title": "Доставка",
             "header_link-home": "Главная",
             "header_link-delivery": "Доставка и оплата",
             "header_link-abuot": "О нас",
@@ -110,7 +108,6 @@
         },
 
         "about us" : {
-            "title": "О нас",
             "header_link-home": "Главная",
             "header_link-delivery": "Доставка и оплата",
             "header_link-abuot": "О нас",
@@ -136,7 +133,6 @@
         },
 
         "contacts" : {
-            "title": "Контакты",
             "header_link-home": "Главная",
             "header_link-delivery": "Доставка и оплата",
             "header_link-abuot": "О нас",
@@ -178,8 +174,7 @@
             "privacy_policy": "Политика конфиденциальности"
         },
 
-        "faq" : {
-            "title": "FAQ | Вопросы и ответы",
+        "faq" : { 
             "header_link-home": "Главная",
             "header_link-delivery": "Доставка и оплата",
             "header_link-abuot": "О нас",
@@ -260,7 +255,6 @@
         },
 
         "privacypolicy" : {
-            "title" : "Политика конфиденциальности",
             "datapolicy_header" : "ПОЛИТИКА ИСПОЛЬЗОВАНИЯ ДАННЫХ",
             "datapolicy_date" : "2 Июня 2022 года",
             "datapolicy_notice" : "Данный сайт не собирает и не обрабатывает пользовательские данные.",
@@ -271,13 +265,11 @@
     },
     "ua": {
         "index" : {
-            "title": "AppTree Store",
             "header_link-home": "Головна",
             "header_link-delivery": "Доставка і оплата",
             "header_link-abuot": "Про нас",
             "header_link-contacts": "Контакти",
             "header_link-faq": "FAQ",
-
 
             "about_us.header": "Чим ми займаємось?",
             "about_us.description_1": "Ми перший магазин техніки Apple у місті Вознесенськ, у нас Ви купите тільки якісну та оригінальну продукцію Apple.",
@@ -331,7 +323,6 @@
         },
         
         "delivery": {
-            "title": "Доставка",
             "header_link-home": "Головна",
             "header_link-delivery": "Доставка і оплата",
             "header_link-abuot": "Про нас",
@@ -382,7 +373,6 @@
         },
 
         "about us" : {
-            "title": "Про нас",
             "header_link-home": "Головна",
             "header_link-delivery": "Доставка і оплата",
             "header_link-abuot": "Про нас",
@@ -409,7 +399,6 @@
         },
 
         "contacts" : {
-            "title": "Контакти",
             "header_link-home": "Головна",
             "header_link-delivery": "Доставка і оплата",
             "header_link-abuot": "Про нас",
@@ -452,7 +441,6 @@
         },
 
         "faq" : {
-            "title": "FAQ | Питання та відповіді",
             "header_link-home": "Головна",
             "header_link-delivery": "Доставка і оплата",
             "header_link-abuot": "Про нас",
@@ -460,7 +448,7 @@
             "header_link-faq": "FAQ" ,
 
             "faq_header" : "FAQ | Питання та відповіді",
-            "delivery_payment" : "Доставка і оплата",
+            "delivery_payment" : "Доставка та оплата",
             "warranty_service" : "Гарантія та сервіс",
             "return_exchange" : "Повернення та обмін",
             "equipment" : "Комплектація",
@@ -533,7 +521,6 @@
         },
 
         "privacypolicy" : {
-            "title" : "Політика конфіденційності",
             "datapolicy_header" : "ПОЛІТИКА ВИКОРИСТАННЯ ДАНИХ",
             "datapolicy_date" : "2 Червня 2022 року",
             "datapolicy_notice" : "Даний сайт не збирає і не обробляє дані користувача.",

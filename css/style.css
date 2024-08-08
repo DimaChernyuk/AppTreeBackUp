@@ -1334,6 +1334,7 @@ img {
 .tab {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     overflow: hidden;
     background-color: rgb(26, 22, 25);
     margin-bottom: 30px;
@@ -1349,6 +1350,7 @@ img {
     transition: 0.5s;
     width: 100%;
     height: 100%;
+    white-space: nowrap;
 }
 .tab button:hover {
     background-color: #fff;
@@ -1421,16 +1423,27 @@ img {
     .tab button{
         font-size: 20px;
         line-height: 1;
-        padding: 20px;
+        padding: 18px;
     }
 }
 @media (max-width:991px) {
+    .tab_button_element {
+        width: 50%;
+    }
     .tab button{
         font-family: 'Roboto-Medium';
         font-size: 20px;
         line-height: 1;
         text-align: center;
-        padding: 20px;
+        padding: 16px;
+    }
+    .tab_button_element:nth-child(odd) {
+        border-right: 1px solid #5F5D5E;
+    }
+    
+    .tab_button_element:nth-child(1),
+    .tab_button_element:nth-child(2) {
+        border-bottom: 1px solid #5F5D5E;
     }
 }
 @media (max-width:767px) {
@@ -1448,10 +1461,15 @@ img {
         font-size: 24px;
         line-height: 1;
         padding: 20px 40px;
-        border-bottom: 1px solid #5F5D5E;
     }
     .tab_button_element {
         width: 100%;
+    }
+    .tab_button_element:not(:last-child) {
+        border-bottom: 1px solid #5F5D5E;;
+    }
+    .tab_button_element:nth-child(odd) {
+        border-right: none;
     }
     .faq_header {
         font-size: 38px;
