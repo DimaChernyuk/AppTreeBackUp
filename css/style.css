@@ -1022,43 +1022,8 @@ img {
 }
 .delivery_content p {
     font-size: 16px;
-    line-height: 34px;
+    line-height: 30px;
     color: #000;
-}
-.delivery_contacts {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px auto 100px;
-}
-.delivery_contact_item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    background-color: rgb(26, 22, 25);
-    border-radius: 3px;
-    color: #fff;
-    font-size: 18px;
-    line-height: 24px;
-    padding: 20px 20px 25px;
-}
-.delivery_contact_item:not(:last-child) {
-    margin-right: 15px;
-}
-.delivery_contact_item svg {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 12px;
-}
-.delivery_contact_item h4 {
-    margin-bottom: 20px;
-}
-.delivery_contact_item a {
-    text-decoration: underline;
-    outline: none;
-}
-.delivery_contact_item a:hover {
-    color: #35b0ca;
 }
 .methods_item{
     margin-bottom: 10px;
@@ -1069,17 +1034,15 @@ img {
 .post_office:hover {
     color: #2a80b2;
 }
-
-
-@media (max-width:1199px) {
-    .delivery_contacts {
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .delivery_contact_item {
-        width: 40%;
-        margin: 15px;
-    }
+.payment_methods_items:last-child {
+    margin-bottom: 40px;
+}
+.methods_item .attention {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.methods_item .attention-description {
+    line-height: 24px;
 }
 @media (max-width:767px) {
     .delivery_content {
@@ -1103,25 +1066,8 @@ img {
     .payment_methods_header {
         margin-bottom: 15px;
     }
-    .delivery_contacts {
-        flex-direction: column;
-        align-items: center;
-    }
-    .delivery_contact_item {
-        width: 60%;
-        padding: 8px 16px;
-    }
 }
-@media (max-width:599px) {
-    .delivery_contact_item {
-        width: 70%;
-    }
-}
-@media (max-width:479px) {
-    .delivery_contact_item {
-        width: 80%;
-    }
-}
+
 
 
 
@@ -1142,15 +1088,32 @@ img {
     color: #000;
     margin-bottom: 20px;
 }
-.about_us_description a {
+.phone_contact {
     text-decoration: underline;
 }
-.about_us_description a:hover {
+.phone_contact:hover {
     color: #2a80b2;
 }
-.about_us_description svg {
+.phone_contact svg {
    vertical-align: middle;
+   margin-right: 5px;
+   display: inline-block;
 }
+.rise-shake {
+    animation: jump-shaking 0.83s infinite;
+}
+@keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-9px) }
+    35% { transform: translateY(-9px) rotate(17deg) }
+    55% { transform: translateY(-9px) rotate(-17deg) }
+    65% { transform: translateY(-9px) rotate(17deg) }
+    75% { transform: translateY(-9px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+}
+
+
+
 @media (max-width:767px) {
     .about_us_description{
         padding-left: 20px;
