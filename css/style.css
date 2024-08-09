@@ -1090,6 +1090,7 @@ img {
 }
 .phone_contact {
     text-decoration: underline;
+    font-weight: bold;
 }
 .phone_contact:hover {
     color: #2a80b2;
